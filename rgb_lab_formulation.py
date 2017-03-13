@@ -46,7 +46,8 @@ def preprocess_lab(lab):
 
 def deprocess_lab(L_chan, a_chan, b_chan):
     with tf.name_scope('deprocess_lab'):
-        # this is axis=3 instead of axis=2 because we process individual images but deprocess batches
+        #TODO This is axis=3 instead of axis=2 when deprocessing batch of images 
+               # ( we process individual images but deprocess batches)
         #return tf.stack([(L_chan + 1) / 2 * 100, a_chan * 110, b_chan * 110], axis=3)
         return tf.stack([(L_chan + 1) / 2 * 100, a_chan * 110, b_chan * 110], axis=2)
 
