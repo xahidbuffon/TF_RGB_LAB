@@ -12,6 +12,6 @@ Use the test_.py for testing
 
 MASSIVE help from:
 ------------------
-    https://github.com/affinelayer/pix2pix-tensorflow/blob/master/pix2pix.py
-    https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/generic/image.c
-    https://github.com/cameronfabbri/Colorizing-Images-Using-Adversarial-Networks
+https://github.com/affinelayer/pix2pix-tensorflow/blob/master/pix2pix.py  
+https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/generic/image.c 
+https://github.com/cameronfabbri/Colorizing-Images-Using-Adversarial-Networks 
