@@ -11,7 +11,7 @@ The color-space conversion libraries are in [rgb_lab_formulation.py](rgb_lab_for
 
 
 | Original Input image | RGB--LAB--RGB | Back to original | 
-|:--------------------|:--------------------|:----------------|
+|:--------------------|:--------------------|:--------------------|
 | ![det-7](/data/umn.jpg)) | {R,G,B}--{L,a,b}--{R,G,B}    | ![det-2](/data/converted_umn.jpg) |
 
 
