@@ -5,15 +5,15 @@
 
 
 ### Usage
-Use the [test_.py](test_.py) test_.py for testing. 
-The color-space conversion libraries are in [rgb_lab_formulation.py](rgb_lab_formulation.py). 
+- The test script: [test_.py](test_.py) 
+- Color-space conversion libraries: [rgb_lab_formulation.py](rgb_lab_formulation.py)
 
 
 ### Sample output
 
-| Original Input image | RGB-LAB-RGB | 
-|:--------------------|:--------------------
-| ![det-7](/data/umn.jpg)) |  ![det-2](/data/converted_umn.jpg) |
+| Original image  | RGB-LAB-RGB | 
+|:--------------------|:----------------
+| ![det-86](/data/umn.jpg) |   ![det-106](/data/umn.jpg) | 
 
 
 ### Acknowledgements
