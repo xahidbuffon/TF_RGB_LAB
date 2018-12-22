@@ -1,11 +1,12 @@
 ### Modules for color-space conversion
 
 - RGB to LAB and LAB to RGB
-- Las tested on: Python 2.7, SciPy 0.18.1, TensorFlow 1.4.0
+- Implemented on: Python 2.7, SciPy 0.18.1, TensorFlow 1.4.0
+- Latest test on: Python 2.7, SciPy 1.1.0,  TensorFlow 1.11.0
 
 
 ### Usage
-- The test script: [test.py](test.py) 
+- Test script: [test.py](test.py) 
 - Color-space conversion libraries: [rgb_lab_formulation.py](rgb_lab_formulation.py)
 
 
