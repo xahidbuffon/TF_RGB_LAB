@@ -5,13 +5,13 @@
 
 
 ### Usage
-- The test script: [test_.py](test_.py) 
+- The test script: [test.py](test.py) 
 - Color-space conversion libraries: [rgb_lab_formulation.py](rgb_lab_formulation.py)
 
 
 ### Sample output
 
-| Original image  | RGB-LAB-RGB | 
+| Original image  | RGB-to-LAB-to-RGB | 
 |:--------------------|:----------------
 | ![det-86](/data/test_rgb.jpg) |   ![det-106](/data/converted_test.jpg) | 
 | ![det-86](/data/umn.jpg) |   ![det-106](/data/converted_umn.jpg) | 
