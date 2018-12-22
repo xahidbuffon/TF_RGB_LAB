@@ -10,9 +10,9 @@ Use the [test_.py](test_.py) test_.py for testing.
 The color-space conversion libraries are in [rgb_lab_formulation.py](rgb_lab_formulation.py). 
 
 
-| Original Input image | RGB--LAB--RGB | Back to original | 
+| Original Input image | RGB-LAB-RGB | Back to original | 
 |:--------------------|:--------------------|:--------------------|
-| ![det-7](/data/umn.jpg)) | {R,G,B}--{L,a,b}--{R,G,B}    | ![det-2](/data/converted_umn.jpg) |
+| ![det-7](/data/umn.jpg)) |    | ![det-2](/data/converted_umn.jpg) |
 
 
 Acknowledgements:
