@@ -13,6 +13,7 @@
 
 | Original image  | RGB-LAB-RGB | 
 |:--------------------|:----------------
+| ![det-86](/data/test_rgb.jpg) |   ![det-106](/data/converted_test.jpg) | 
 | ![det-86](/data/umn.jpg) |   ![det-106](/data/converted_umn.jpg) | 
 
 
