@@ -42,7 +42,5 @@ if __name__ == '__main__':
           # here is the image Tensor :)
 	  image = true_image.eval()  
 	  conv_img = Image.fromarray(image, 'RGB')
-	  
 	  #conv_img.save('converted_test.jpg')
-	  conv_img.save('test.jpg')
-	  #conv_img.show()
+	  conv_img.show()

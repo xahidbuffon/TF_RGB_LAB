@@ -5,7 +5,6 @@ Functions for
 Use the test_.py for testing
 	  --Md Jahidul Islam (islam034@umn.edu)
 
-
 MASSIVE help from:
 ------------------
 https://github.com/affinelayer/pix2pix-tensorflow/blob/master/pix2pix.py
@@ -28,12 +27,10 @@ def preprocess(image):
         # [0, 1] => [-1, 1]
         return image * 2 - 1
 
-
 def deprocess(image):
     with tf.name_scope('deprocess'):
         # [-1, 1] => [0, 1]
         return (image + 1) / 2
-
 
 def preprocess_lab(lab):
     with tf.name_scope('preprocess_lab'):
@@ -43,14 +40,12 @@ def preprocess_lab(lab):
         # [0, 100] => [-1, 1],  ~[-110, 110] => [-1, 1]
         return [L_chan / 50 - 1, a_chan / 110, b_chan / 110]
 
-
 def deprocess_lab(L_chan, a_chan, b_chan):
     with tf.name_scope('deprocess_lab'):
         #TODO This is axis=3 instead of axis=2 when deprocessing batch of images 
                # ( we process individual images but deprocess batches)
         #return tf.stack([(L_chan + 1) / 2 * 100, a_chan * 110, b_chan * 110], axis=3)
         return tf.stack([(L_chan + 1) / 2 * 100, a_chan * 110, b_chan * 110], axis=2)
-
 
 def augment(image, brightness):
     # (a, b) color channels, combine with L channel and convert to rgb
@@ -59,8 +54,6 @@ def augment(image, brightness):
     lab = deprocess_lab(L_chan, a_chan, b_chan)
     rgb = lab_to_rgb(lab)
     return rgb
-
-
 
 def check_image(image):
     assertion = tf.assert_equal(tf.shape(image)[-1], 3, message='image must have 3 color channels')
@@ -76,8 +69,8 @@ def check_image(image):
     image.set_shape(shape)
     return image
 
-# based on https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/generic/image.c
 def rgb_to_lab(srgb):
+    # based on https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/generic/image.c
     with tf.name_scope('rgb_to_lab'):
         srgb = check_image(srgb)
         srgb_pixels = tf.reshape(srgb, [-1, 3])
