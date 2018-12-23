@@ -13,7 +13,7 @@ https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/gen
 https://github.com/cameronfabbri/Colorizing-Images-Using-Adversarial-Networks
 """
 
-from __future__ import division # dont remove this
+from __future__ import division #needed
 import tensorflow as tf
 """
 modules for

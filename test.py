@@ -6,7 +6,6 @@ http://irvlab.cs.umn.edu/
 Any part of this repo can be used for academic and educational purposes only
 """
 
-
 from scipy import misc
 import numpy as np
 import tensorflow as tf
@@ -44,3 +43,5 @@ if __name__ == '__main__':
 	  conv_img = Image.fromarray(image, 'RGB')
 	  #conv_img.save('converted_test.jpg')
 	  conv_img.show()
+
+
