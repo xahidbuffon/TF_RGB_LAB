@@ -1,5 +1,5 @@
 ### RGB-to-LAB and LAB-to-RGB color-space conversion
-- tested on TensorFlow 1.x (Python 2.7) and TensorFlow 2.0 (Python 3.6) 
+- Tested on TensorFlow 1.x (Python 2.7) and TensorFlow 2.0 (Python 3.6) 
 
 | Original image  | RGB-to-LAB-to-RGB | 
 |:--------------------|:----------------
