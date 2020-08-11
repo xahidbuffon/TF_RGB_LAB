@@ -10,7 +10,7 @@
 - TensorFlow 2.0.0 (alpha0) in Python 3.6 
 
 ### Usage
-- Test script: [test.py](test.py) (use the tf_v1 flag for version 1.x/2.0)
+- Test script: [test.py](test.py) (use the tf_v1 = True/False for tf 1.x/2.0)
 - Color-space conversion libraries: [rgb_lab_formulation.py](rgb_lab_formulation.py)
 
 #### Acknowledgements for some functionalities
