@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
  * Modules for <RGB to LAB> and <LAB to RGB> color-space conversion (tf-1.x)
     - Maintainer: Jahid (email: islam034@umn.edu)

@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """
   * Test script for <RGB to/from LAB> color-space conversion (tf-1.x) 
     - Maintainer: Jahid (email: islam034@umn.edu)

@@ -1,13 +1,11 @@
-## RGB-to-LAB and LAB-to-RGB color-space conversion
+### RGB-to-LAB and LAB-to-RGB color-space conversion
+- tested on TensorFlow 1.x (Python 2.7) and TensorFlow 2.0 (Python 3.6) 
 
 | Original image  | RGB-to-LAB-to-RGB | 
 |:--------------------|:----------------
 | ![det-86](/data/dance.jpg) |   ![det-106](/data/converted_dance.jpg) | 
 | ![det-86](/data/umn.jpg) |   ![det-106](/data/converted_umn.jpg) | 
 
-### Tested on 
-- TensorFlow 1.4.0 or newer in Python 2.7 
-- TensorFlow 2.0.0 (alpha0) in Python 3.6 
 
 ### Usage
 - Test script: [test.py](test.py) (use the tf_v1 = True/False for tf 1.x/2.0)
