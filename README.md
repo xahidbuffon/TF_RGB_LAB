@@ -1,4 +1,9 @@
-## Modules for <RGB to LAB> and <LAB to RGB> color-space conversion
+## RGB-to-LAB and LAB-to-RGB color-space conversion
+
+| Original image  | RGB-to-LAB-to-RGB | 
+|:--------------------|:----------------
+| ![det-86](/data/dance.jpg) |   ![det-106](/data/converted_dance.jpg) | 
+| ![det-86](/data/umn.jpg) |   ![det-106](/data/converted_umn.jpg) | 
 
 ### Tested on 
 - TensorFlow 1.4.0 or newer in Python 2.7 
@@ -7,15 +12,6 @@
 ### Usage
 - Test script: [test.py](test.py) (use the tf_v1 flag for version 1.x/2.0)
 - Color-space conversion libraries: [rgb_lab_formulation.py](rgb_lab_formulation.py)
-
-
-### Sample output
-
-| Original image  | RGB-to-LAB-to-RGB | 
-|:--------------------|:----------------
-| ![det-86](/data/dance.jpg) |   ![det-106](/data/converted_dance.jpg) | 
-| ![det-86](/data/umn.jpg) |   ![det-106](/data/converted_umn.jpg) | 
-
 
 #### Acknowledgements for some functionalities
 - https://github.com/affinelayer/pix2pix-tensorflow/blob/master/pix2pix.py 
