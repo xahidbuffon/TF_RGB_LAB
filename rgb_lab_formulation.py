@@ -1,25 +1,11 @@
 #!/usr/bin/env python
 """
-Maintainer: Jahid (email: islam034@umn.edu)
-Interactive Robotics and Vision Lab
-http://irvlab.cs.umn.edu/
-Any part of this repo can be used for academic and educational purposes only
-
-Acknowledgement-
-Some modules are collected from:
---------------------------------
-https://github.com/affinelayer/pix2pix-tensorflow/blob/master/pix2pix.py
-https://github.com/torch/image/blob/9f65c30167b2048ecbe8b7befdc6b2d6d12baee9/generic/image.c
-https://github.com/cameronfabbri/Colorizing-Images-Using-Adversarial-Networks
+ * Modules for <RGB to LAB> and <LAB to RGB> color-space conversion (tf-1.x)
+    - Maintainer: Jahid (email: islam034@umn.edu)
+    - https://github.com/xahidbuffon/tf-rgb-lab
 """
-
-from __future__ import division #needed
+from __future__ import division
 import tensorflow as tf
-"""
-modules for
-      RGB to LAB color-space conversion
-      LAB to RGB color-space conversion
-"""
 
 
 def preprocess(image):
